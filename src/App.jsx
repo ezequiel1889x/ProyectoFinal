@@ -1,10 +1,15 @@
 import './App.css'
+import navbar from './components/navBar/navbar'
+import Footer from './components/Footer/Footer'
+
 
 function App() {
 
 
   return (
-    <h1>aa</h1>
+        <>
+          <Footer />
+        </>
   )
 }
 

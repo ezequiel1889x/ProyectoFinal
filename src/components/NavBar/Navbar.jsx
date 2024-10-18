@@ -1,19 +1,18 @@
 
-
-const NavBar = () =>{
+const navbar = () => {
     return(
         <header>
-            <nav className="nav-cont">
-                <div className="img-cont">
-                    <img src="" alt="" />
+            <nav style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
+                <div className="imgCont">
+                    <img src="" alt="ImagenNav" />
                 </div>
 
-                <div>
+                <div className="titulo">
                     <h1>Titulo</h1>
                 </div>
 
-                <div>
-                    <ul>
+                <div className="ulCont">
+                    <ul style>
                         <li>Tienda</li>
                         <li>2</li>
                         <li>3</li>
@@ -22,11 +21,8 @@ const NavBar = () =>{
                 </div>
             </nav>
         </header>
-
     )
 }
 
 
-
-
-export default NavBar;
+export default navbar;
