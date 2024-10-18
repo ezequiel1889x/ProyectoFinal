@@ -1,6 +1,7 @@
+
 const Footer = () => {
     return(
-        <footer style={{height:'30%', backgroundColor:'#135',color:'#567',display:'flex',width:'100%',justifyContent:'space-around',alignItems:'center'}}>
+        <footer>
             <div className="copyFooter">
                 <h3>Copy</h3>
             </div>
@@ -10,7 +11,7 @@ const Footer = () => {
             </div>
 
             <div className="redes">
-                <ul style={{listStyle:'none'}}>
+                <ul>
                     <li>Whatsapp</li>
                     <li>Instagram</li>
                     <li>Gmail</li>
