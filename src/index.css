@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+=======
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+}
+>>>>>>> 150d6fc
