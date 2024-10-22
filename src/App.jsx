@@ -1,8 +1,6 @@
-import './App.css'
-import Navbar from './components/navbar/Navbar'
+import Navbar from './components/NavBar/Navbar'
 import Footer from './components/footer/Footer'
 import Body from './components/body/Body'
-
 
 
 
