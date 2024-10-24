@@ -1,27 +1,31 @@
+import { Link } from "react-router-dom";
+
 
 const Navbar = () => {
+
     return(
     <>
-        <header style={{height:'30%',backgroundColor:'#135',color:'#567'}}>
-            <nav style={{display:'flex',justifyContent:'space-around',alignItems:'center'}}>
+        <header style={{height:'17%',backgroundColor:'#135',color:'#567', borderRadius:'5px'}}>
+            <nav style={{display:'flex',justifyContent:'space-around',alignItems:'center', height:'100%'}}>
                 <div className="imgCont">
                     <img src="" alt="ImagenNav" />
                 </div>
 
                 <div className="titulo">
-                    <h1>Titulo</h1>
+                    <h1><Link to="/" style={{color:'black', textDecoration:'none'}}>Titulo</Link></h1>
                 </div>
 
-                <div className="ulCont" style={{}}>
-                    <ul style={{listStyle:'none',display:'flex',justifyContent:'center',flexDirection:'column',alignItems:'center'}}>
-                        <li>Tienda</li>
-                        <li>Ofertas</li>
-                        <li>Contacto</li>
-                        <li>Nosotros</li>
+                <div className="ulCont">
+                    <ul style={{listStyle:'none',display:'flex',justifyContent:'center',flexDirection:'column',alignItems:'center', gap:'8px'}}>
+                        <li style={{gap:'20px'}}><Link to="/tienda" style={{color:'white', textDecoration:'none'}}>Tienda</Link></li>
+                        <li style={{gap:'20px'}}><Link to="/tienda" style={{color:'white', textDecoration:'none'}}>Ofertas</Link></li>
+                        <li style={{gap:'20px'}}><Link to="/tienda" style={{color:'white', textDecoration:'none'}}>Contacto</Link></li>
+                        <li style={{gap:'20px'}}><Link to="/tienda" style={{color:'white', textDecoration:'none'}}>Nosotros</Link></li>
                     </ul>
                 </div>
             </nav>
         </header>
+        
     </>
     )
 }

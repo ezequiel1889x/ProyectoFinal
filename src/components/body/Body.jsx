@@ -2,7 +2,7 @@
 const Body = () =>{
     return(
         <main style={{height:'100%'}}>
-            <h2>INICIO</h2>
+            <h2 style={{textAlign:'center'}}>INICIO</h2>
         </main>
     )
 }
