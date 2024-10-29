@@ -10,7 +10,7 @@ const Footer = () => {
             </div>
 
             <div className="redes">
-                <ul style={{listStyle:'none'}}>
+                <ul style={{listStyle:'none '}}>
                     <li>Whatsapp</li>
                     <li>Instagram</li>
                     <li>Gmail</li>

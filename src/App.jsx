@@ -3,7 +3,7 @@ import Footer from './components/footer/Footer'
 import Body from './components/body/Body'
 import ItemListContainer from './components/itemList/ItemListContainer'
 import {BrowserRouter, Route, Routes} from 'react-router-dom' /* para los href, tmb se instala por la terminal "npm i react-router-dom" */ 
-
+import './components/itemList/item.css'
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
 
 
        <div>
-          <h1 style={{textAlign:'center'}}>Titulo</h1>
+        <h1 style={{textAlign:'center'}}>Alquila ahora</h1>
           <ItemListContainer />
        </div>
 

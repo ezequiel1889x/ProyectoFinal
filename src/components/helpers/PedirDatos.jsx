@@ -5,7 +5,7 @@ const PedirDatos = () =>{
     return new Promise((resolve,reject) =>{
         setTimeout( () => {
             resolve(data)
-        }, 500);
+        }, 700); //procesa la data en 6s
     })
 }
 
